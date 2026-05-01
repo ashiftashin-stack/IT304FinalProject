@@ -2,124 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Search Engines & Assistants</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
-    header { background: #1f2937; color: white; padding: 20px; text-align: center; }
-    nav { display: flex; justify-content: center; background: #374151; flex-wrap: wrap; }
-    nav a { color: white; padding: 14px 20px; text-decoration: none; }
-    nav a:hover { background: #4b5563; }
-    .container { padding: 20px; max-width: 1000px; margin: auto; background: white; }
-    h2 { border-bottom: 2px solid #ddd; padding-bottom: 5px; }
-    .card { background: #f9fafb; padding: 15px; margin: 15px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    footer { text-align: center; padding: 15px; background: #1f2937; color: white; margin-top: 20px; }
-    section { display: none; }
-    section.active { display: block; }
-  </style>
+  <title>AI Search Engines - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
   <h1>AI Search Engines & Assistants</h1>
-  <p>Exploring Technology, Applications, Ethics, and Future Recommendations</p>
-  <p><strong>By:</strong> Ashif Hossain | Kevin Melgar | Josh Greenfield | Ahmad Albakr | Ummay Hani Sultana</p>
+  <p>By: Ashif Hossain | Kevin Melgar | Josh Greenfield | Ahmad Albakr | Ummay Hani Sultana</p>
 </header>
 
 <nav>
-  <a href="#" onclick="showSection('intro')">Introduction</a>
-  <a href="#" onclick="showSection('applications')">Applications</a>
-  <a href="#" onclick="showSection('ethics')">Ethics</a>
-  <a href="#" onclick="showSection('recommendations')">Recommendations</a>
+  <a href="index.html">Home</a>
+  <a href="applications.html">Applications</a>
+  <a href="ethics.html">Ethics</a>
+  <a href="recommendations.html">Recommendations</a>
 </nav>
 
 <div class="container">
-
-<section id="intro" class="active">
   <h2>Introduction</h2>
-  <p>AI-powered search engines and assistants such as ChatGPT, Claude, Gemini, and Microsoft Copilot use advanced language models to generate human-like responses instead of simply listing search results.</p>
-  <p>This technology is transforming how people access information, learn, and work across many industries.</p>
-</section>
+  <p>AI-powered search engines and assistants such as ChatGPT, Claude, Gemini, and Microsoft Copilot use large language models to generate responses instead of traditional search result lists.</p>
 
-<section id="applications">
-  <h2>Applications</h2>
-
-  <div class="card">
-    <h3>Education</h3>
-    <p>AI tools help students summarize content, generate ideas, and understand complex topics, but raise concerns about academic integrity.</p>
-  </div>
-
-  <div class="card">
-    <h3>Business & Productivity</h3>
-    <p>Companies use AI for writing, coding, and data analysis, improving efficiency but raising concerns about job displacement and privacy.</p>
-  </div>
-
-  <div class="card">
-    <h3>Information Search</h3>
-    <p>Users increasingly rely on AI-generated answers instead of traditional search engines, which raises concerns about accuracy and bias.</p>
-  </div>
-</section>
-
-<section id="ethics">
-  <h2>Ethical Discussion</h2>
-
-  <div class="card">
-    <h3>Utilitarianism</h3>
-    <p>AI is beneficial if it increases overall well-being through efficiency and access to information, but harmful if misinformation spreads widely.</p>
-  </div>
-
-  <div class="card">
-    <h3>Deontology</h3>
-    <p>Focuses on rules and duties, such as honesty and transparency. Misuse of AI for cheating or deception is unethical regardless of outcomes.</p>
-  </div>
-
-</section>
-
-<section id="recommendations">
-  <h2>Recommendations for Future Use</h2>
-
-  <div class="card">
-    <h3>Technological Improvements</h3>
-    <ul>
-      <li>Add citations and verified sources to AI responses</li>
-      <li>Improve bias detection and fairness</li>
-      <li>Reduce hallucinations and misinformation</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Social Strategies</h3>
-    <ul>
-      <li>Teach AI literacy in schools</li>
-      <li>Encourage critical thinking and verification</li>
-      <li>Promote responsible AI usage</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Policy Recommendations</h3>
-    <ul>
-      <li>Require disclosure of AI-generated content</li>
-      <li>Regulate high-risk AI applications</li>
-      <li>Establish accountability for misuse</li>
-    </ul>
-  </div>
-
-</section>
-
+  <p>This technology is changing how people learn, work, and access information across nearly every industry.</p>
 </div>
 
 <footer>
-  <p>IT Project | AI Search Engines & Ethics</p>
+  <p>IT Project - AI & Ethics</p>
 </footer>
-
-<script>
-function showSection(id) {
-  const sections = document.querySelectorAll('section');
-  sections.forEach(sec => sec.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
-}
-</script>
 
 </body>
 </html>
